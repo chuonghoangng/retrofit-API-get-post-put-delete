@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddSV"
+    android:orientation="vertical">
+
+
+
+
+    <TextView
+
+        android:padding="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="THONG TIN SINH VIEN"
+        android:textStyle="bold"
+        android:textColor="@color/purple_700"
+        android:textSize="25dp"
+
+        ></TextView>
+
+
+
+    <TextView
+            android:id="@+id/txtSV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:text="Title"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/edt123"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtSV"
+
+            android:hint="title"
+            tools:ignore="TouchTargetSizeCheck"></EditText>
+
+        <TextView
+            android:id="@+id/txtNhapduongdan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edt123"
+
+            android:text="imgURL"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/edtUrl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtNhapduongdan"
+
+            android:hint="nhap url"
+            tools:ignore="TouchTargetSizeCheck"></EditText>
+        <TextView
+            android:id="@+id/txtgroupname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:text="groupname"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/edtgroupName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtNhapduongdan"
+
+            android:hint="groupName"
+            tools:ignore="TouchTargetSizeCheck">
+
+        </EditText>
+
+        <TextView
+            android:id="@+id/txtcontent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:text="content"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/edtcontent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtNhapduongdan"
+
+            android:hint="content"
+            tools:ignore="TouchTargetSizeCheck">
+
+        </EditText>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Button
+                android:padding="5dp"
+                android:id="@+id/btnadd"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+
+                android:text="Them" />
+            <Button
+                android:padding="5dp"
+                android:id="@+id/btndelete"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+
+                android:text="Xoa" />
+            <Button
+                android:id="@+id/btnEdit"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+
+                android:text="Sua" />
+        </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>
